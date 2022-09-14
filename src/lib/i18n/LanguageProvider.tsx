@@ -69,18 +69,18 @@ export default function LanguageProvider({ children }: Props) {
   const hasDV = useSelector(hasDissonantVoices);
   const [profile] = useMyProfile(true);
   const audioLang = useMemo(() => {
+    if (lang === 'ru' || lang === 'de') {
+      // these are free
+      return lang;
+    }
     if (hasDV) {
       // DV sign in controls everything here.
       return 'dv';
     }
     switch (lang) {
       // these are all free
-      case 'ru':
-        return 'ru';
       case 'pl':
         return 'pl';
-      case 'de':
-        return 'de';
       // This requires access
       case 'es':
         if (find(profile?.flags, f => f === User_Flag_Type_Enum.EsDv)) {

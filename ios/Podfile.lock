@@ -373,7 +373,7 @@ PODS:
     - React-Core
   - react-native-sqlite-storage (6.0.1):
     - React-Core
-  - react-native-track-player (3.1.0):
+  - react-native-track-player (3.1.0-7b247404c2b54df0550379277949a1cab5ddf47c):
     - React-Core
     - SwiftAudioEx (= 0.15.2)
   - React-perflogger (0.70.0)
@@ -855,7 +855,7 @@ SPEC CHECKSUMS:
   react-native-pager-view: da490aa1f902c9a5aeecf0909cc975ad0e92e53e
   react-native-quick-sqlite: eb0212cb5c306e330e11cfa9d5a5aa4d5b354e02
   react-native-sqlite-storage: f6d515e1c446d1e6d026aa5352908a25d4de3261
-  react-native-track-player: 12c7bdc776f11c382c11fecdade3743ebe0af78c
+  react-native-track-player: b4741036aa1e0d9aa68c72c1d50c92155b5a95ff
   React-perflogger: 77947e49d84e31eb87d454d4ef327542dcfeaebc
   React-RCTActionSheet: 9f5fd6c1666c1a834ab7f45a452ed08b1de44eb8
   React-RCTAnimation: 6fd3db6ca387c8432fd6a26428e940a081bcb476
